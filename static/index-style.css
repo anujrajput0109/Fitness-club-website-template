@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
-    font-family: 'Dosis', sans-serif;}
+    font-family: 'Dosis', sans-serif;
+}
 
 .container{
     width: 100%;
@@ -23,6 +26,7 @@ body{
     /* justify-content: center; */
     align-items: center;
     background-color: #fff;
+    box-shadow: 0px 4px 13px 0px black;
 }
 .header .header-link{
     text-decoration: none;
@@ -227,7 +231,8 @@ body{
     margin-top: -0.5vh;
 }
 .about-gym .about-heading-section h5{
-    font-family: 'PT Sans', sans-serif;    letter-spacing: 1px;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 1px;
     word-spacing: 2.2px;
     font-size: 2vw;
     opacity: 1.4;
@@ -293,4 +298,123 @@ body{
     font-weight: bolder;
     /* padding: 2.1% 5%; */
     cursor: pointer;
+}
+
+
+/* ------------------------------------------------------------------------ */
+/* membership section */
+.membership{
+    /* border: 0px solid black; */
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.membership .membership-left{
+    /* border: 2px solid yellow; */
+    width: 26%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.membership .membership-left h5{
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2.2px;
+    font-size: 1.1vw;
+    opacity: 0.8;
+    z-index: -1;
+    font-weight: 100;
+    margin: 0.5vw 0;
+}
+.membership .membership-left h1{
+    font-family: 'Alatsi', sans-serif;
+    font-size: 2vw;
+    margin-top: -5.5vh;
+}
+.membership .membership-left p{
+    font-weight: bolder;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    font-size: 1.2em;
+    opacity: 0.9;
+    margin-right: 10px;
+
+}
+.membership .membership-left .membership-icon{
+    content: "";
+}
+.membership .membership-left .membership-icon img{
+    margin: 0 3px;
+    height:30px;
+    width: 30px;
+    filter: grayscale(500%);
+}
+
+.membership .membership-middle{
+    /* border: 2px solid green; */
+    width: 26%;
+    height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+.membership .membership-middle h2{
+    align-self:center;
+    text-align: center;
+    font-weight: bolder;
+    margin: 4vw 2vw 0 2vw;
+    font-family: 'PT Sans';
+    opacity: 0.95;
+}
+.membership .membership-middle .membership-button{
+    display: inline-block;
+    border: 2px solid chocolate;
+    background: transparent;
+    color: black;
+    font-weight: 300;
+    font-size: 101%;
+    padding: 1.2vh 2vw;
+    align-self: flex-end;
+}
+.membership .membership-middle .membership-button:hover{
+    background-color: chocolate;
+    color: white;
+    font-size: 1.10vw;
+    font-weight: normal;
+    padding: 2.1% 5%;
+    cursor: pointer;
+}
+
+.membership .membership-right{
+    background: linear-gradient(rgb(182 178 99 / 40%), rgb(156 157 72 / 49%), rgb(219 219 15 / 39%));
+    width: 26%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.membership .membership-right img{
+    width: 24vw;
+    height: 45vh;
+}
+
+/* ------------------------------------------------------------- */
+/* footer section */
+footer{
+    width: 100%;
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+footer h4{
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 1vw;
 }
