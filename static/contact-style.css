@@ -1,0 +1,82 @@
+.container{
+    width: 100%;
+    height: 110vh;
+    background: /*linear-gradient(rgba(0,0,0,.4),rgba(148,48,48, .2),rgba(167,67,67, .4)),*/url(static/images/pexels-william-choquette-1954524.jpg) center no-repeat;
+    background-size:inherit ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form{
+    /* border: 2px solid red; */
+    height: 74%;
+    margin: 1vw -1vh 1vh 11vh;
+}
+.contact-container{
+    background-color: white;
+    height: 66%;
+    width: 60%;
+    margin-top: 10%;
+}
+.contact-container h1{
+    text-align: center;
+    font-family: alatsi;
+    font-weight: bold;
+    font-size: 3vw;
+}
+.form-elements-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-top: 3px;
+}
+.form-elements-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-top: 3px;
+}
+.form-elements{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 3px 2px;
+}
+.contact-container h6{
+    display: inline-block;
+    font-size: 20px;
+}
+.contact-container .myInput{
+    width: 77%;
+    padding: 4.5% 0%;
+    font-size: medium;
+    display: inline-block;
+    background-color: #b2b1b15c;
+    border: none;
+    opacity: .9;
+}
+.contact-container .myInput2{
+    width: 89%;
+    padding: 7.5% 0%;
+    font-size: medium;
+    display: inline-block;
+    background-color: #b2b1b15c;
+    border: none;
+    opacity: .9;
+}
+.contact-container .btn{
+    width: 14%;
+    padding: 10px 2px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+
+
+

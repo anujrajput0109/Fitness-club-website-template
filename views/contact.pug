@@ -1,0 +1,32 @@
+extends base.pug
+block style
+    style
+        include ../static/base-style.css
+        include ../static/contact-style.css
+
+block content 
+    div.contact-container
+        h1 Contact Us 
+        div.contact-form
+            form(action="/contact", method="post",class="myform")
+                div.form-elements-left
+                    h6 Name
+                    input(type="text",class="myInput",name="name",placeholder="Enter your name")
+                div.form-elements-right
+                    h6 Phone-Number
+                    input(type="phone",class="myInput",name="phone",placeholder="Enter your phone number")
+                div.form-elements-left
+                    h6 E-mail
+                    input(type="email",class="myInput",name="email",placeholder="Enter your email")
+                div.form-elements-right
+                    h6 Address
+                    input(type="text",class="myInput",name="address",placeholder="Enter your address")
+                div.form-elements
+                    h6 Message
+                    input(type="text",class="myInput2",name="desc",placeholder="")
+                button(class="btn")
+                    |Submit
+
+
+block script
+    script(src="../static/base.js")
