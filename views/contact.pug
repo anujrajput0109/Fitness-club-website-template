@@ -8,23 +8,23 @@ block content
     div.contact-container
         h1 Contact Us 
         div.contact-form
-            form(action="/contact", method="post",class="myform")
+            form(action="/submit", method="get",class="myform")
                 div.form-elements-left
                     h6 Name
-                    input(type="text",class="myInput",name="name",placeholder="Enter your name")
+                    input(type="text",class="myInput",name="name",placeholder="Enter your name" required)
                 div.form-elements-right
                     h6 Phone-Number
-                    input(type="phone",class="myInput",name="phone",placeholder="Enter your phone number")
+                    input(type="phone",class="myInput",name="phone",placeholder="Enter your phone number" required)
                 div.form-elements-left
                     h6 E-mail
-                    input(type="email",class="myInput",name="email",placeholder="Enter your email")
+                    input(type="email",class="myInput",name="email",placeholder="Enter your email" required)
                 div.form-elements-right
                     h6 Address
-                    input(type="text",class="myInput",name="address",placeholder="Enter your address")
+                    input(type="text",class="myInput",name="address",placeholder="Enter your address" required)
                 div.form-elements
                     h6 Message
-                    input(type="text",class="myInput2",name="desc",placeholder="")
-                button(class="btn")
+                    input(type="text",class="myInput2",name="message",placeholder="" required)
+                button( class="btn")
                     |Submit
 
 

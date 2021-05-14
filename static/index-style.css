@@ -38,7 +38,7 @@
     height: 100%;
     float: left;
     background-color: #2c261df7;
-    margin-top: 88px;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
 }
@@ -89,7 +89,7 @@
     width: 50%;
     height: 100%;
     float: right;
-    margin-top: 88px;
+    margin-top: 80px;
 }
 .container .container-main-heading h1{
     display: inline-block;
@@ -292,7 +292,7 @@
 }
 
 .membership .membership-right{
-    background: linear-gradient(rgb(182 178 99 / 40%), rgb(156 157 72 / 49%), rgb(219 219 15 / 39%));
+    background:linear-gradient(rgb(225 115 43 / 80%), rgb(255 151 37 / 49%), rgb(255 190 68 / 40%));
     width: 26%;
     height: 100%;
     display: flex;
